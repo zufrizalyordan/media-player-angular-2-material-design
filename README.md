@@ -1,4 +1,6 @@
-# Angular 2 with Material Design Skeleton/Template
+# Media Player using Angular 2 with Material Design
+
+![App Screenshot](src/screencapture-localhost-4200-1481709556458.png?raw=true "App Screenshot")
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
@@ -21,4 +23,4 @@ it means that there isn't any vendor which has the binary that you need for node
 
 ## TODO
 - implement https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
-
+- implement checking for video file
