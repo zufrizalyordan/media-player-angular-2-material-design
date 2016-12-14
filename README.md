@@ -15,6 +15,10 @@ if you have any issues in mac, like what i had:
 ```ERROR in ./~/css-loader?sourcemap!./~/postcss-loader!./~/sass-loader?sourcemap!./src/assets/custom-theme.scss
 Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/YOUR-USERNAME/YOUR-PATH-URL/media-player/node_modules/node-sass/vendor'```
 
-it means that there isn't any vendor folder for node-sass. to fix it run
+it means that there isn't any vendor which has the binary that you need for node-sass to run. to fix it run command below on your terminal
 
 ```node ./node_modules/node-sass/scripts/install.js```
+
+## TODO
+- implement https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+
