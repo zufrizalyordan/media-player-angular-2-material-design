@@ -6,6 +6,7 @@ md-sidenav-layout.m2app-dark {
 }
 .app-content {
   padding: 20px;
+  padding-bottom: 80px;
 }
 .app-content md-card {
   margin: 20px;
@@ -61,4 +62,26 @@ body {
 }
 .app-progress {
   margin: 20px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bottom {
+  bottom: 0;
+  left: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.player-bottom {
+  background-color: rgba(20, 20, 20, 0.9);
+  color: #f0f0f0;
+}
+
+.play-item__list {
+  border: 20px;
 }

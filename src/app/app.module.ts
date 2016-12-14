@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 
+import { SongsService } from './shared/songs.service';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -17,7 +19,7 @@ import { AppComponent } from './app.component';
     HttpModule,
     MaterialModule.forRoot()
   ],
-  providers: [],
+  providers: [SongsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
